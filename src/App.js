@@ -54,7 +54,7 @@ const App = () => {
         />
 
         <div className="w-11/12 max-w-[1200p] mx-auto flex flex-wrap justify-center items-center min-h-[50vh]">
-          {loading ? (<spinner />) : (<Cards courses={courses} category={category}/>)}
+          {loading ? (<Spinner />) : (<Cards courses={courses} category={category}/>)}
         </div>
 
       </div>
